@@ -1,0 +1,12 @@
+.load {
+    width: 200px;
+    border: 1px solid darkviolet;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.loading {
+    width: 72%;
+    background-color: darkviolet;
+    text-align: inherit;
+}
