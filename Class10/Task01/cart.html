@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Интернет-магазин</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Название интернет-магазина</h1>
+    </header>
+
+    <ul id="navbar">
+        <li><a href="#">Бытовая техника</a>
+            <ul>
+                <li>Стиральные машины</li>
+                <li>Пылесосы</li>
+                <li>Швейные, вышивальные машины</li>
+                <li>Утюги </li>
+                <li>Электровеники </li>
+                <li> Сушилки для обуви</li>
+            </ul>
+        </li>
+        <li><a href="#">Техника для кухни</a>
+            <ul>
+                <li>Холодильники </li>
+                <li>Кухонные плиты</li>
+                <li>Морозильники</li>
+                <li>Настольные плиты </li>
+                <li>Ростеры, мини-печи </li>
+                <li>Вытяжки </li>
+                <li>Микроволновые печи</li>
+            </ul>
+        </li>
+        <li><a href="#">Компьютерная техника</a>
+            <ul>
+                <li>Ноутбуки</li>
+                <li>Планшеты </li>
+                <li>Компьютеры, моноблоки</li>
+                <li>Игровые приставки </li>
+                <li>Серверное оборудование</li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">Корзина</a>
+        </li>
+
+
+    </ul>
+
+
+    <center>
+        <form action="">
+            <fieldset>
+                <legend align="right">Оставить заявку на заказ</legend>
+                <table>
+                    <tr>
+                        <td><label for="name">Фамилия и имя:</label></td>
+                        <td><input id="name" type="text" placeholder="Имя"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="phone">Номер телефона:</label></td>
+                        <td><input id="phone" type="text" placeholder="Телефон"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="mail">E-mail:</label></td>
+                        <td><input id="mail" type="email" placeholder="Почта"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="message">Комментарий к заказу</label></td>
+                        <td><textarea id="message" name="" id="" cols="30" rows="5"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td> <input id="go" type="checkbox" /> <label for="go">Согласен с условиями доставки </label> </td>
+                    </tr>
+                </table>
+                <div>
+                    <button class="button" type="submit">Подтвердить заказ</button></div>
+            </fieldset>
+        </form>
+    </center>
+    <div class="contact">
+        <h3>Контакты</h3>
+        <ul>Телефоны:
+            <li>8017123456</li>
+            <li>80449876543</li>
+            <li>80251234567</li>
+        </ul>
+        <span>Время работы: Пн-Пт 9.00-18.00</span><br>
+        <span>Наш адрес:<address>Минск, пр.Держинского 113</address></span>
+    </div>
+
+</body>
+
+</html>
