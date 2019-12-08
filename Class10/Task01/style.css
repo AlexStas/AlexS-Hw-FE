@@ -30,20 +30,21 @@ header {
     float: left;
     position: relative;
     height: 100%;
+    width: 25%;
 }
 
 #navbar ul {
     display: none;
     background-color: rgb(240, 232, 166);
-    ;
     position: absolute;
     top: 100%;
+    width: 100%;
 }
 
 #navbar li a {
     display: block;
     padding: 6px;
-    width: 100px;
+    width: auto;
     color: rgb(0, 0, 0);
     text-decoration: none;
     text-align: center;
@@ -51,6 +52,9 @@ header {
 
 #navbar ul li {
     float: none;
+    width: auto;
+    padding: 3%;
+    padding-left: 5%;
 }
 
 #navbar li:hover {
@@ -59,6 +63,7 @@ header {
 
 #navbar ul li:hover {
     background-color: rgba(82, 83, 14, 0.075);
+    cursor: pointer;
 }
 
 form {
@@ -74,16 +79,25 @@ form label {
     font-weight: bold;
 }
 
-button {
-    display: none;
-}
-
-#go:checked~.button {
-    display: block;
-}
-
 .contact {
     background: linear-gradient(to bottom, #fefcea, #f1da36);
 }
 
-.
+.menu,
+#go {
+    display: none;
+}
+
+.menu li {
+    list-style-type: none;
+}
+
+.st {
+    padding: 0 20px 0 20px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+
+#go:checked~.menu {
+    display: block;
+}
