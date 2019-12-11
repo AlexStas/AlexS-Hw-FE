@@ -59,6 +59,7 @@ header {
 
 #navbar li:hover {
     background-color: rgb(231, 219, 105);
+    z-index: 2;
 }
 
 #navbar ul li:hover {
@@ -83,13 +84,11 @@ form label {
     background: linear-gradient(to bottom, #fefcea, #f1da36);
 }
 
-.menu,
-#go {
+.button,
+div.iframe,
+input[type="checkbox"],
+input[type="text1"] {
     display: none;
-}
-
-.menu li {
-    list-style-type: none;
 }
 
 .st {
@@ -98,6 +97,31 @@ form label {
     color: rgb(0, 0, 0);
 }
 
-#go:checked~.menu {
+#go:checked+button.button {
+    display: block;
+}
+
+.td {
+    font-weight: bold;
+}
+
+.text {
+    font-weight: normal;
+}
+
+input[name="as"]:checked~div.iframe {
+    display: block;
+}
+
+.adress {
+    position: relative;
+}
+
+.iframe {
+    position: absolute;
+    right: -100px;
+}
+
+input[name="ax"]:checked~input[type="text1"] {
     display: block;
 }

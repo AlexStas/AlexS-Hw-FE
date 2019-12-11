@@ -70,31 +70,27 @@
                         <td><label for="mail">E-mail:</label></td>
                         <td><input id="mail" type="email" placeholder="Почта"></td>
                     </tr>
-                </table>
-                <ul>Выберите способ доставки:
-                    <li><input type="radio" name="" id="">Самовывоз со склада по<a href=""> адресу</a></li>
-                    <li>
-                        <a href=""><input type="radio" name="" id="">Курьером по Минску</a>
-                    </li>
-                </ul>
-
-                <table>
+                    <tr>
+                        <td class="td">Выбирете способ доставки:</td>
+                        <td class="adress"><label for="adress" class="text"><input type="radio" id="adress" name="ar" value="1">Самовывоз по <label for="as"><input type="checkbox" id="as" name="as">адресу<div class="iframe"> <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d2353.01169571671!2d27.48200144770217!3d53.86043996828124!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sby!4v1576005326884!5m2!1sru!2sby" width="250" height="200" frameborder="0"
+                            style="border:0;"></iframe></div></label>
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td> <label for="curier" class="text"><input type="radio" id="curier" name="ax" value="2">Курьером по Минску <input type="text1" name="ax" placeholder="Адрес доставки"></label></td>
+                    </tr>
                     <tr>
                         <td><label for="message">Комментарий к заказу</label></td>
                         <td><textarea id="message" name="" id="" cols="30" rows="5"></textarea></td>
                     </tr>
                 </table>
-                <input id="go" type="checkbox" />
-                <label for="go" class="st"> Согласен с условиями доставки</label>
-
-                <ul class="menu">
-                    <li>
-                        <button class="button" type="submit">Подтвердить заказ</button>
-                    </li>
-
-                </ul>
-
-
+                <label for="go" class="st">
+                  <input id="go" type="checkbox" >
+              Согласен с условиями доставки
+            <button class="button" type="submit">Подтвердить заказ</button>
+               </label>
             </fieldset>
         </form>
     </center>
