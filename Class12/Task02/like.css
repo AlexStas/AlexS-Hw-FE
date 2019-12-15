@@ -1,0 +1,21 @@
+.heart_like {
+    width: 70px;
+    height: 70px;
+    fill: darkgray;
+}
+
+.heart_like:hover {
+    fill: mediumblue;
+}
+
+#like {
+    display: none;
+}
+
+#like:checked+.heart_like {
+    fill: red;
+}
+
+#like:checked:hover+.heart_like {
+    fill: firebrick;
+}

@@ -1,0 +1,10 @@
+     .beach,
+     .beach2 {
+         height: 800px;
+         widows: 800px;
+         position: relative;
+         background-image: url(https://raw.githubusercontent.com/AdukarIT/_Tasks_/master/assets/beach/sun.png), url(https://raw.githubusercontent.com/AdukarIT/_Tasks_/master/assets/beach/sea.jpg), url(https://raw.githubusercontent.com/AdukarIT/_Tasks_/master/assets/beach/sky.jpg);
+         background-position: top center, bottom, center center;
+         background-repeat: no-repeat, no-repeat;
+         background-size: 100px 100px, 800px, 800px 800px;
+     }
