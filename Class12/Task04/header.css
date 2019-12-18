@@ -5,7 +5,7 @@ header {
     background-color: darkgray;
 }
 
-.menu {
+.header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -14,3 +14,12 @@ header {
 ul {
     list-style-type: none;
 }
+.menu ul{
+		display: none;
+		}
+	.menu:hover ul{
+				display: block;
+					}
+					.menu a{
+							text-decoration: none;
+							}
