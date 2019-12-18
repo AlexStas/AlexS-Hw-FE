@@ -1,25 +1,37 @@
-header {
-    height: 200px;
-    width: 80%;
-    margin: auto;
-    background-color: darkgray;
-}
-
-.header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-ul {
-    list-style-type: none;
-}
-.menu ul{
-		display: none;
-		}
-	.menu:hover ul{
-				display: block;
-					}
-					.menu a{
-							text-decoration: none;
-							}
+            header {
+                height: 120px;
+                width: 80%;
+                margin: auto;
+                background-color: darkgray;
+            }
+            
+            .header {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+            }
+            
+            ul {
+                list-style-type: none;
+            }
+            
+            .menu {
+                position: relative;
+            }
+            
+            .menu ul {
+                display: none;
+                position: absolute;
+                width: 100%;
+                top: 100%;
+                right: 0px;
+            }
+            
+            .menu:hover ul {
+                display: block;
+            }
+            
+            .menu a {
+                text-decoration: none;
+            }
