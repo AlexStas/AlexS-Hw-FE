@@ -1,0 +1,50 @@
+.content {
+    width: 80%;
+    margin: auto;
+    height: 400px;
+    background-color: darkslateblue;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    line-height: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    color: aliceblue;
+}
+
+.name {
+    font-size: 20px;
+}
+
+.content>div {
+    flex-basis: 25%;
+}
+
+.item2,
+.item4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.item2>div {
+    flex-basis: 50%;
+}
+
+.item4>div {
+    flex-basis: 50%;
+}
+
+.item3 {
+    background-color: lightseagreen;
+}
+
+.item2_1 {
+    background-color: darkgoldenrod;
+}
+
+.item2_2,
+.item4_1 {
+    background-color: lightgreen;
+}
