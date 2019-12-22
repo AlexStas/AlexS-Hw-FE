@@ -1,0 +1,35 @@
+.ninja {
+    width: 66px;
+    height: 135px;
+    margin: auto;
+    box-shadow: 0 0 10px 2px #333;
+    background: url(sheet.jpg) no-repeat left;
+}
+
+.ninja:hover {
+    animation: sheet 0.3s;
+}
+
+@keyframes sheet {
+    0% {
+        background-position: left;
+    }
+    17% {
+        background-position: -66px;
+    }
+    34% {
+        background-position: -132px;
+    }
+    51% {
+        background-position: -198px;
+    }
+    68% {
+        background-position: -264px;
+    }
+    85% {
+        background-position: -330px;
+    }
+    100% {
+        background-position: -396px;
+    }
+}
