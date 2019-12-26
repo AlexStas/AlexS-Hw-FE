@@ -1,7 +1,7 @@
 header {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(45deg, #111, #444);
+    background-image: linear-gradient(45deg, rgb(50, 192, 168), rgb(16, 236, 115));
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -38,7 +38,6 @@ header {
     height: 50px;
     margin-top: 40px;
     margin-bottom: 100px;
-    background-color: darkcyan;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -47,6 +46,7 @@ header {
 .description_text {
     padding-left: 70px;
     color: white;
+    position: relative;
 }
 
 .ikons {
@@ -75,18 +75,23 @@ a {
 }
 
 .button {
-    width: 250px;
+    width: 300px;
     height: 30px;
-    border-radius: 5px;
-    background-color: rgb(247, 63, 63);
-    font-size: 20px;
-    padding-left: 15px;
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-left: 40px;
 }
 
 .button a {
     color: seashell;
-    margin: auto;
+    border: 1px solid rgb(247, 63, 63);
+    border-radius: 5px;
+    background-color: rgb(247, 63, 63);
+    padding: 5px 10px;
+    font-size: 20px;
+}
+
+.button a:hover {
+    opacity: 0.7;
 }
 
 span {
@@ -101,10 +106,35 @@ h1 {
     color: rgb(255, 255, 255);
 }
 
-p::before {
+.ikon3::after {
     content: "";
     width: 30px;
     height: 30px;
     background-image: url(backpack.svg);
     background-size: 100%;
+    position: absolute;
+    left: 30px;
+    bottom: 0px;
+}
+
+.ikon2::after {
+    content: "";
+    width: 30px;
+    height: 30px;
+    background-image: url(line.svg);
+    background-size: 100%;
+    position: absolute;
+    left: 30px;
+    bottom: 0px;
+}
+
+.ikon::after {
+    content: "";
+    width: 40px;
+    height: 40px;
+    background-image: url(traveling.svg);
+    background-size: 100%;
+    position: absolute;
+    left: 30px;
+    bottom: -5px;
 }
