@@ -1,0 +1,184 @@
+body {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  font-family: 'Oswald', sans-serif;
+}
+body header {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+body header .head_logo {
+  display: flex;
+  flex-direction: row;
+}
+body header .head_logo .logo {
+  margin-right: 50px;
+}
+body header .head_logo .logo img {
+  width: 90px;
+  height: 90px;
+}
+body header .head_logo span {
+  color: #ff00bf;
+}
+body header .head_menu {
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 0 10px 2px #333;
+  border-radius: 5px;
+}
+body header .head_menu ul:nth-child(1) {
+  width: 25%;
+  height: 34px;
+  padding-top: 10px;
+  margin: 0;
+  border-radius: 5px 0 0 5px;
+}
+body header .head_menu ul:nth-child(1):hover {
+  background-color: #ff00bf;
+}
+body header .head_menu ul:nth-child(1) a {
+  text-decoration: none;
+  margin-left: 80px;
+}
+body header .head_menu ul:nth-child(2) {
+  width: 25%;
+  height: 34px;
+  padding-top: 10px;
+  margin: 0;
+}
+body header .head_menu ul:nth-child(2):hover {
+  background-color: #ff00bf;
+}
+body header .head_menu ul:nth-child(2) a {
+  text-decoration: none;
+  margin-left: 60px;
+}
+body header .head_menu ul:nth-child(3) {
+  width: 25%;
+  height: 34px;
+  padding-top: 10px;
+  margin: 0;
+}
+body header .head_menu ul:nth-child(3):hover {
+  background-color: #ff00bf;
+}
+body header .head_menu ul:nth-child(3) a {
+  text-decoration: none;
+  margin-left: 75px;
+}
+body header .head_menu ul:nth-child(4) {
+  width: 25%;
+  height: 34px;
+  padding-top: 10px;
+  margin: 0;
+  border-radius: 0 5px 5px 0;
+}
+body header .head_menu ul:nth-child(4):hover {
+  background-color: #ff00bf;
+}
+body header .head_menu ul:nth-child(4) a {
+  text-decoration: none;
+  margin-left: 40px;
+}
+body .services {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+body .services span {
+  text-transform: uppercase;
+  font-size: 25px;
+  color: #ff00bf;
+  margin-left: 10px;
+}
+body .services .services_type-servic {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+body .services .services_type-servic .type_servic {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 200px;
+  border: 1px solid;
+  border-radius: 15px;
+  background: rgba(23, 23, 24, 0.801);
+}
+body .services .services_type-servic .type_servic .type_servic-img1 {
+  margin: auto;
+}
+body .services .services_type-servic .type_servic .type_servic-img1 img {
+  width: 100px;
+  height: 150px;
+}
+body .services .services_type-servic .type_servic .type_servic-img2 {
+  margin: auto;
+}
+body .services .services_type-servic .type_servic .type_servic-img2 img {
+  width: 90px;
+  height: 90px;
+}
+body .services .services_type-servic .type_servic .type_servic-img3 {
+  margin: auto;
+}
+body .services .services_type-servic .type_servic .type_servic-img3 img {
+  width: 70px;
+  height: 90px;
+}
+body .services .services_type-servic .type_servic .type_servic-name {
+  color: #ff00bf;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 10px;
+}
+body .services p {
+  margin-left: 10px;
+}
+body .recommended_devices {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 2px #333;
+  margin-bottom: 40px;
+}
+body .recommended_devices span {
+  font-size: 25px;
+  margin-left: 10px;
+}
+body .recommended_devices .devices {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+body .recommended_devices .devices .devic {
+  width: 20%;
+}
+body .recommended_devices .devices .devic .devic_img {
+  margin-left: 30px;
+}
+body .recommended_devices .devices .devic .devic_img img {
+  width: 150px;
+  height: 200px;
+}
+body .recommended_devices .devices .devic .devic_name {
+  text-align: center;
+}
+body footer {
+  font-size: 15px;
+  line-height: 10px;
+  border: 1px solid;
+  box-shadow: 0 0 10px 2px #333;
+  padding-left: 10px;
+}
+body footer a {
+  text-decoration: none;
+  color: black;
+}

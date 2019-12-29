@@ -1,0 +1,186 @@
+body {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  font-family: 'Oswald', sans-serif;
+  header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    .head_logo {
+      display: flex;
+      flex-direction: row;
+     .logo {
+       margin-right: 50px;
+       img{
+         width: 90px;
+        height: 90px;
+       }
+      }
+      span {
+        color: rgb(255, 0, 191);
+      }
+    }
+    .head_menu {
+      display: flex;
+      flex-direction: row;
+      box-shadow: 0 0 10px 2px #333;
+      border-radius: 5px;
+
+      ul:nth-child(1) {
+        width: 25%;
+        height: 34px;
+        padding-top: 10px;
+        margin: 0;
+        border-radius: 5px 0 0 5px;
+        &:hover  {
+            background-color: rgb(255, 0, 191);
+          }
+          a {
+            text-decoration: none;
+            margin-left: 80px;
+          }
+        }
+          ul:nth-child(2) {
+            width: 25%;
+            height: 34px;
+            padding-top: 10px;
+            margin: 0;
+            &:hover  {
+                background-color: rgb(255, 0, 191);
+              }
+              a {
+                text-decoration: none;
+                margin-left: 60px;
+              }
+            }
+              ul:nth-child(3) {
+            width: 25%;
+            height: 34px;
+            padding-top: 10px;
+            margin: 0;
+            &:hover  {
+                background-color: rgb(255, 0, 191);
+              }
+              a {
+                text-decoration: none;
+                margin-left: 75px;
+              }
+            }
+              ul:nth-child(4) {
+           width: 25%;
+           height: 34px;
+           padding-top: 10px;
+           margin: 0;
+           border-radius: 0 5px 5px 0;
+           &:hover  {
+               background-color: rgb(255, 0, 191);
+             }
+             a {
+               text-decoration: none;
+               margin-left: 40px;
+             }
+           }
+      }
+    
+  }
+  .services {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    span {
+      text-transform: uppercase;
+      font-size: 25px;
+      color: rgb(255, 0, 191);
+      margin-left: 10px;
+    }
+     .services_type-servic {
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       margin-top: 20px;
+        .type_servic {
+          display: flex;
+          flex-direction: column;
+          width: 30%;
+          height: 200px;
+          border: 1px solid;
+          border-radius: 15px;
+          background: rgba(23, 23, 24, 0.801);
+          .type_servic-img1 {
+            margin: auto;
+            img {
+              width: 100px;
+              height: 150px;
+            }
+          }
+          .type_servic-img2{
+            margin: auto;
+            img {
+              width: 90px;
+              height: 90px;
+            }
+          }
+          .type_servic-img3 {
+            margin: auto;
+            img {
+              width: 70px;
+              height: 90px;
+            }
+          }
+          .type_servic-name {
+            color: rgb(255, 0, 191);
+            text-transform: uppercase;
+            text-align: center;
+            margin-bottom: 10px;
+          }
+        }
+    }
+    p {
+      margin-left: 10px;
+    }
+  }
+  .recommended_devices {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px #333;
+    margin-bottom: 40px;
+    span {
+      font-size: 25px;
+      margin-left: 10px;
+    }
+    .devices {
+      display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    .devic {
+      width: 20%;
+      .devic_img {
+        margin-left: 30px;
+        img {
+          width: 150px;
+          height: 200px;
+        }
+      }
+       .devic_name {
+        text-align: center;
+       }
+      }
+    }
+  }
+  footer {
+    font-size: 15px;
+    line-height: 10px;
+    border: 1px solid;
+    box-shadow: 0 0 10px 2px #333;
+    padding-left: 10px;
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+}    

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 79.374998 79.375002"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="phone.svg">
+  <defs
+     id="defs2">
+    <style
+       id="style10"
+       type="text/css">
+   
+    .fil0 {fill:black}
+    .fil1 {fill:black;fill-rule:nonzero}
+   
+  </style>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="248.95166"
+     inkscape:cy="148.18772"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-217.62498)">
+    <g
+       style="clip-rule:evenodd;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision"
+       id="g20"
+       transform="matrix(0.13990811,0,0,0.13990811,22.452154,227.9013)">
+      <path
+         style="fill:#000000"
+         inkscape:connector-curvature="0"
+         class="fil0"
+         d="m 38,0 h 178 c 21,0 38,17 38,38 v 344 c 0,21 -17,38 -38,38 H 38 C 17,420 0,403 0,382 V 38 C 0,17 17,0 38,0 Z m 65,40 c -3,0 -5,-2 -5,-5 0,-3 2,-5 5,-5 h 48 c 3,0 5,2 5,5 0,3 -2,5 -5,5 z m 22,333 c 7,0 12,5 12,12 0,7 -5,12 -12,12 -7,0 -12,-5 -12,-12 0,-7 5,-12 12,-12 z M 38,70 h 178 c 10,0 18,8 18,18 v 244 c 0,10 -8,18 -18,18 H 38 C 28,350 20,342 20,332 V 88 C 20,78 28,70 38,70 Z"
+         id="path14" />
+      <polygon
+         style="fill:#000000;fill-rule:nonzero"
+         class="fil1"
+         points="77,84 34,117 34,96 50,84 "
+         id="polygon16" />
+      <polygon
+         style="fill:#000000;fill-rule:nonzero"
+         class="fil1"
+         points="137,84 34,162 34,141 109,84 "
+         id="polygon18" />
+    </g>
+  </g>
+</svg>
+
